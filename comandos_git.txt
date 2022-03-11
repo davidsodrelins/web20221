@@ -1,0 +1,10 @@
+git init
+
+git config --global user.name "David Sodré"
+git config --global user.email davidsodrelins@outlook.com
+
+git add .
+git commit -m "Estrutura inicial - WEB"
+git branch -M main
+git remote add origin https://github.com/davidsodrelins/web20221.git
+git push -u origin main
